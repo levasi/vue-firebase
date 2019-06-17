@@ -1,0 +1,27 @@
+body {
+    font-family: 'Karla', sans-serif;
+    overflow-x:hidden;
+}
+button {
+    background-color: transparent;
+    border-radius:3px;
+    border:none;
+    box-shadow:inset 0px 0px 2px 0px rgba(0,0,0,0.33);
+    margin:0 2px;
+    font-size: 11px;
+    cursor:pointer;
+    height:20px;
+    transition: all 0.2s ease;
+}
+button:hover {
+    box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.33);
+}
+img {
+    width:100%;
+}
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
